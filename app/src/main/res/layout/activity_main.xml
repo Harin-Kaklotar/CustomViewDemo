@@ -8,8 +8,10 @@
 
     <com.harin.customviewdemo.CustomView
         android:id="@+id/customView"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:square_color="@color/teal_200"
+        app:square_size="@dimen/large_square"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
